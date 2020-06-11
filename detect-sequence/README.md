@@ -26,7 +26,3 @@ Because
     values: [1, 0, 3, 1, 9, 7, 9, 7, 4, 5]
                                ↑ result key is 6
 
-## Test
-Command to run category test only:
-
-    node_modules/.bin/mocha --require node_modules/ts-node/register src/exercises/detect-sequence/detect-sequence.service.spec.ts
