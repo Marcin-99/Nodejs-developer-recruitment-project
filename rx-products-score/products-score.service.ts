@@ -80,6 +80,7 @@ export class ProductsScoreService {
 }
 
 
+/*Example input*/
 const productsBasic$: Observable<ProductBasic> = of(
       { id: 2, symbol: "1N4007" },
       { id: 5, symbol: "74HC14" },
@@ -106,6 +107,7 @@ const descriptions$: Observable<DescriptionWords> = of(
 const inputPhrase = "diode";
 const productsLimit = 2;
 
+/*Example output.*/
 let service: ProductsScoreService = new ProductsScoreService(productsBasic$,
     customerSymbols$,
     descriptions$,
