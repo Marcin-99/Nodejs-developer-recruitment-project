@@ -34,5 +34,3 @@ You should build nested tree
             ]
         }
     ]
-
-See structure in **category-tree.service.spec.ts**
