@@ -13,7 +13,9 @@ export class DetectSequenceService {
     }
 }
 
-
+/*Example input.*/
 let exampleInput = [9, 1, 2, 5, 1, 2, 5, 2, 5, 1];
 let sequence = [2, 5];
+
+/*Example output.*/
 console.log(DetectSequenceService.detect(exampleInput, sequence));
