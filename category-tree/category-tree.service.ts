@@ -56,7 +56,7 @@ class CategoryTreeService {
 }
 
 
-/*Since I can't run tests for this project, here is some example input data.*/
+/*Example input.*/
 let data = [
       {
         id: 1,
@@ -139,7 +139,7 @@ let data = [
     ];
 
 
-/*Output.*/
+/*Example output.*/
 let tree: CategoryTreeService = new CategoryTreeService(data);
 /*JSON.stringify() for better visualisation.*/
 let dataToDisplay = JSON.stringify(tree.buildNestedTree(), null, "\t");
