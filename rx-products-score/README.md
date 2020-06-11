@@ -41,8 +41,3 @@ Example scoring compute procedure for products:
 Result when productsLimit is 2:
 
     ["bar", "foo"]
-
-## Test
-Command to run category test only:
-
-    node_modules/.bin/mocha --require node_modules/ts-node/register src/exercises/rx-products-score/products-score.service.spec.ts
