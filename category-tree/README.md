@@ -36,8 +36,3 @@ You should build nested tree
     ]
 
 See structure in **category-tree.service.spec.ts**
-
-## Test
-Command to run category test only:
-
-    node_modules/.bin/mocha --require node_modules/ts-node/register src/exercises/category/category-tree.service.spec.ts
